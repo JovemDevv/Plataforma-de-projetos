@@ -1,0 +1,11 @@
+{
+  "name": "plataforma",
+  "version": "1.0.0",
+  "description": "Desenvolvimento em react de uma plataforma que permite você a colocar projetos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
