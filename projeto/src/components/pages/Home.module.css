@@ -15,7 +15,7 @@
 .home_container h1 span {
     color: #3108e9;
     padding: 0 .2em;
-    background-color: #222;
+    text-shadow: 0 0 5px #afafd1, 0 0 5px #9a92bd, 0 0 5px #b2aec5;
 }
 
 .home_container p {
