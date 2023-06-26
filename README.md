@@ -3,6 +3,8 @@ Desenvolvimento em react de uma plataforma que permite você a colocar projetos 
 
 ## Indice
 
+## Funcionalidades
+
 ##
 
 
