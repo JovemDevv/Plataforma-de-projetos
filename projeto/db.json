@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "name": "cxc",
+      "budget": "3000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "flame": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": ".NET",
+      "budget": "333",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "flame": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "flame": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": ".NET",
+      "budget": "3333",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "flame": 0,
+      "services": [],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
