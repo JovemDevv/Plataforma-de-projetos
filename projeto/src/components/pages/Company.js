@@ -1,5 +1,9 @@
 function Company() {
-    return <h1>Company</h1>
-}
-
+    return (
+      <section>
+        <h1>Sobre a empresa</h1>
+      </section>
+    )
+  }
+  
 export default Company

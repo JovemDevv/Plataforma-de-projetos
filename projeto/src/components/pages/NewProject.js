@@ -14,7 +14,7 @@ function NewProject() {
         project.flame = 0
         project.services = []
 
-        fetch("http://localhost:5000/projects", {
+        fetch("http://localhost:3000/projects", {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
