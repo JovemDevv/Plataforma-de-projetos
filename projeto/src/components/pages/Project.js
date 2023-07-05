@@ -1,4 +1,4 @@
-import { parse, v4 as uuidv4 } from 'uuid'
+import {  v4 as uuidv4 } from 'uuid'
 
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
@@ -14,6 +14,7 @@ import ServiceCard from '../service/ServiceCard'
 
 function Project() {
   let { id } = useParams()
+
   const [project, setProject] = useState([])
   const [showProjectForm, setShowProjectForm] = useState(false)
   const [showServiceForm, setShowServiceForm] = useState(false)
@@ -42,7 +43,7 @@ function Project() {
 
   function editPost(project) {
     // budget validation
-    if (project.budget < project.cost) {
+    if (project.budget < project.flame) {
       setMessage('O Orçamento não pode ser menor que o custo do projeto!')
       setType('error')
       return false
@@ -70,12 +71,12 @@ function Project() {
 
     lastService.id = uuidv4()
 
-    const lastServiceCost = lastService.cost
+    const lastServiceFlame = lastService.flame
 
-    const newCost = parseFloat(project.cost) + parseFloat(lastServiceCost)
+    const newFlame = parseFloat(project.cost) + parseFloat(lastServiceFlame)
 
     // maximum value validation
-    if (newCost > parseFloat(project.budget)) {
+    if (newFlame > parseFloat(project.budget)) {
       setMessage('Orçamento ultrapassado, verifique o valor do serviço!')
       setType('error')
       project.services.pop()
@@ -83,7 +84,7 @@ function Project() {
     }
 
     // add service cost to project cost total
-    project.cost = newCost
+    project.flame = newFlame
 
     fetch(`http://localhost:3000/projects/${project.id}`, {
       method: 'PATCH',
@@ -101,7 +102,7 @@ function Project() {
       })
   }
 
-  function removeService(id, cost) {
+  function removeService(id, flame) {
     const servicesUpdated = project.services.filter(
       (service) => service.id !== id,
     )
@@ -109,7 +110,7 @@ function Project() {
     const projectUpdated = project
 
     projectUpdated.services = servicesUpdated
-    projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
+    projectUpdated.flame = parseFloat(projectUpdated.flame) - parseFloat(flame)
 
     fetch(`http://localhost:3000/projects/${projectUpdated.id}`, {
       method: 'PATCH',

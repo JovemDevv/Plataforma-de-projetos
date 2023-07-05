@@ -1,28 +1,8 @@
 {
   "projects": [
     {
-      "name": "cxc",
+      "name": "Desenvolvimento do novo site",
       "budget": "3000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "flame": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": ".NET",
-      "budget": "333",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "flame": 0,
-      "services": [],
-      "id": 2
-    },
-    {
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -32,15 +12,44 @@
       "id": 3
     },
     {
-      "name": ".NET",
-      "budget": "3333",
+      "name": "sistema de oficina mecanica",
+      "budget": "10000",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "flame": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "name": ".NET",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "flame": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "modernização do site",
+      "budget": "3000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "flame": null,
+      "services": [
+        {
+          "name": "Bootstrap",
+          "cost": "1000",
+          "description": "aplicação responsiva",
+          "id": "ddfdc83f-4a5c-4ef6-9cf0-57240f0e1cf4"
+        }
+      ],
+      "id": 6
     }
   ],
   "categories": [
