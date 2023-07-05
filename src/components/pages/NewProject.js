@@ -14,7 +14,7 @@ function NewProject() {
         project.flame = 0
         project.services = []
 
-        fetch("http://localhost:3000/projects", {
+        fetch("https://flame-teste.vercel.app/projects", {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
