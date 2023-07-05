@@ -41,7 +41,7 @@ function Projects() {
   }, [])
 
   function removeProject(id) {
-    fetch(`http://localhost:3000/projects/${id}`, {
+    fetch(`https://flame-teste.vercel.app/projects${id}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
