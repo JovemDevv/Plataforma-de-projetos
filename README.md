@@ -32,7 +32,7 @@ Essas funcionalidades são implementadas através de componentes interativos e e
 
 ## 🔗 Acesso ao projeto
 
-[Acesso a Plataforma](){:target="_blank"}
+[Acesso a Plataforma](https://flame-delta.vercel.app/Projects){:target="_blank"}
 
 ## 💾 Tecnologias
 
