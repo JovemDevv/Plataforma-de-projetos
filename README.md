@@ -4,7 +4,7 @@
 )
 ![Version-1.0-blue](https://img.shields.io/badge/Version-1.0-blue)<br/>
 
-O projeto consiste em uma aplicação web para criação e gerenciamento de projetos.
+O projeto é uma aplicação web que visa facilitar o processo de criação e gerenciamento de projetos.
 
 ![home](https://github.com/JovemDevv/Plataforma-de-projetos/assets/101136752/42cf43d5-3ede-4fce-921b-99aeef1edba2)
 
