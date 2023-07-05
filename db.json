@@ -50,6 +50,17 @@
         }
       ],
       "id": 6
+    },
+    {
+      "category": {
+        "id": "1",
+        "name": "infra"
+      },
+      "budget": "-6",
+      "name": "Ana Caroline Souza de Vasconcellos",
+      "flame": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [

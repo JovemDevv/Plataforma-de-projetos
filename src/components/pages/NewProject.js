@@ -6,7 +6,7 @@ import styles from './NewProject.module.css'
 
 function NewProject() {
 
-    const navegate = useNavigate()
+    const navigate = useNavigate();
 
     function createPost(project){
 
@@ -24,7 +24,7 @@ function NewProject() {
 
         .then((resp) => resp.json())
         .then((data) => {
-            navegate('/projects', { message: 'Projeto criado com sucesso!'})
+            navigate('/projects', { message: 'Projeto criado com sucesso!'})
         })
         .catch((err) => console.log(err))
 
