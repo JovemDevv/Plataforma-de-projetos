@@ -26,7 +26,7 @@ function Project() {
     // Para ver o loading
     setTimeout(
       () =>
-        fetch(`http://localhost:3000/projects/${id}`, {
+        fetch(`https://flame-teste.vercel.app/projects/${id}`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -49,7 +49,7 @@ function Project() {
       return false
     }
 
-    fetch(`http://localhost:3000/projects/${project.id}`, {
+    fetch(`https://flame-teste.vercel.app/projects/${project.id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
@@ -86,7 +86,7 @@ function Project() {
     // add service cost to project cost total
     project.flame = newFlame
 
-    fetch(`http://localhost:3000/projects/${project.id}`, {
+    fetch(`https://flame-teste.vercel.app/projects/${project.id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
@@ -112,7 +112,7 @@ function Project() {
     projectUpdated.services = servicesUpdated
     projectUpdated.flame = parseFloat(projectUpdated.flame) - parseFloat(flame)
 
-    fetch(`http://localhost:3000/projects/${projectUpdated.id}`, {
+    fetch(`https://flame-teste.vercel.app/projects/${projectUpdated.id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
