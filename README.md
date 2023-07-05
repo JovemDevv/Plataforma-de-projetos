@@ -6,9 +6,11 @@
 
 O projeto consiste em uma aplicação web para criação e gerenciamento de projetos.
 
+![home](https://github.com/JovemDevv/Plataforma-de-projetos/assets/101136752/42cf43d5-3ede-4fce-921b-99aeef1edba2)
+
 ## 📇 Índice 
 
-* [Título e Imagem de capa](#plataforma-flame)
+* [Título](#plataforma-flame)
 * [Índice](#📇-índice)
 * [Status do Projeto](#📄-status-do-projeto)
 * [Funcionalidades e Demonstração da Aplicação](#🔨-funcionalidades-do-projeto)
@@ -32,8 +34,7 @@ Essas funcionalidades são implementadas através de componentes interativos e e
 
 ## 🔗 Acesso ao projeto
 
-<a href="https://flame-delta.vercel.app/Projects" target="_blank" rel="noopener noreferrer">Acesso a Plataforma</a>
-
+[Acesso à Plataforma](https://flame-delta.vercel.app/Projects)
 
 ## 💾 Tecnologias
 
