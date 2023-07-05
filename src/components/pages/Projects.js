@@ -25,7 +25,7 @@ function Projects() {
     // Para ver o loading
     setTimeout(
       () =>
-        fetch('http://localhost:3000/projects', {
+        fetch('https://flame-teste.vercel.app/projects', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
